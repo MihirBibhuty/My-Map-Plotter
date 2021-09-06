@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Eczar', serif;
+}
+
+#input {
+    /* width: 100%; */
+    width: 100%;
+}
+
+.inp {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.help {
+    text-align: center;
+    font-size: 1rem;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.tbl{
+    border: 2px solid black;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#tblData {
+    /* width: 100%; */
+    /* height: auto; */
+    margin: 1rem;
+    text-align: center;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.totalNo {
+    font-size: 2rem;
+}
+
+#infoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    border: 8px solid pink;
+    border-bottom: 22px solid pink;
+    width: 40%;
+    height: 180px;
+    background-color: antiquewhite;
+    font-size: 0.8rem;
+    /* text-align: center; */
+    clip-path: polygon(0% 5%, 0% 65%, 45% 85%, 50% 100%, 55% 85%, 100% 65%, 100% 5%, 50% 0%);
+}
+
+@media(max-width: 768px) {
+
+    html{
+        font-size: 70%;
+    }
+
+    #infoBox{
+        width: 100%;
+    }
+}
